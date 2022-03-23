@@ -63,6 +63,12 @@ btnEnviar.onclick = (evento) => {
   exibirReceitas();
   
   alert("Formulário enviado");
+
+  inputTitulo.value = "";
+  inputDificuldade.value = "";
+  inpuIngredientes.value = "";    
+  inputPreparo.value = "";
+  inputLink.value = ""; 
 }
 
 function exibirReceitas() {
